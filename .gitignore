@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Datasets (European Soccer Database and other large data files)
+data/*.sqlite
+data/*.sqlite-journal
+data/*.zip
+data/*.csv
+data/raw/
+!data/.gitkeep
+
+# Kaggle credentials
+kaggle.json
