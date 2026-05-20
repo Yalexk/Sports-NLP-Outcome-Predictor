@@ -7,3 +7,4 @@ matplotlib>=3.7
 seaborn>=0.13
 jupyter>=1.0
 notebook>=7.0
+requests>=2.31
