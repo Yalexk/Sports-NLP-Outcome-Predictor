@@ -224,6 +224,7 @@ data/*.sqlite-journal
 data/*.zip
 data/*.csv
 data/raw/
+data/*.jsonl
 !data/.gitkeep
 
 # Kaggle credentials
