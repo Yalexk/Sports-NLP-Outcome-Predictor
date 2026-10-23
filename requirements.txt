@@ -1,17 +1,24 @@
+# Core
 kaggle>=1.6.0
 python-dotenv>=1.0
 pandas>=2.0
 numpy>=1.24
 scikit-learn>=1.3
+requests>=2.31
 matplotlib>=3.7
 seaborn>=0.13
 jupyter>=1.0
 notebook>=7.0
-requests>=2.31
-spacy>=3.7
-transformers>=4.40
-torch>=2.2
+pytest>=8.0
+
+# Event extraction
+spacy>=3.7          # then: python -m spacy download en_core_web_sm
+dateparser>=1.2
 rapidfuzz>=3.6
 nltk>=3.8
-seqeval>=1.2
+
+# Fine-tuning (optional extractor + archived NER notebooks)
+transformers>=4.40
+torch>=2.2
 datasets>=2.19
+seqeval>=1.2

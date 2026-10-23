@@ -224,8 +224,14 @@ data/*.sqlite-journal
 data/*.zip
 data/*.csv
 data/raw/
+data/processed/
 data/*.jsonl
 !data/.gitkeep
+# Gold annotations are committed (data/annotations/ is not ignored)
+
+# Model checkpoints
+models/
 
 # Kaggle credentials
 kaggle.json
+.DS_Store
